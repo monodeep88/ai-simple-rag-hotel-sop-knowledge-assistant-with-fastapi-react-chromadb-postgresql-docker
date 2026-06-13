@@ -1,0 +1,7 @@
+[
+  "backend/tests/test_project_contract.py::test_calculator_tool",
+  "backend/tests/test_project_contract.py::test_full_stack_files_exist",
+  "backend/tests/test_project_contract.py::test_pipeline_returns_answer_sources_and_steps",
+  "backend/tests/test_project_contract.py::test_project_metadata",
+  "backend/tests/test_project_contract.py::test_text_splitter_creates_chunks"
+]
