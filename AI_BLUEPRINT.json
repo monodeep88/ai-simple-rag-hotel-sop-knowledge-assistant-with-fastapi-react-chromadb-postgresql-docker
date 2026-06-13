@@ -1,0 +1,38 @@
+{
+  "mode": "template",
+  "project_title": "Hotel SOP Knowledge Assistant with FastAPI, React, ChromaDB, PostgreSQL, Docker - Advanced Simple RAG",
+  "short_description": "Template-generated Advanced Simple RAG project. It is complete, runnable, tested, and can be upgraded with real AI provider keys.",
+  "architecture_notes": [
+    "Deterministic full-stack template used for reliability.",
+    "FastAPI backend and React frontend are generated before GitHub push.",
+    "RAG/vector/agent flow is implemented locally with ChromaDB-ready fallback code."
+  ],
+  "backend_modules": [
+    "main.py",
+    "schemas.py",
+    "db.py",
+    "services/text.py",
+    "services/vector_store.py",
+    "services/pipeline.py"
+  ],
+  "frontend_features": [
+    "question form",
+    "answer panel",
+    "sources",
+    "agent timeline",
+    "error state"
+  ],
+  "data_sources": [
+    "sample documents",
+    "sample CSV tool data"
+  ],
+  "testing_strategy": [
+    "pytest contract tests",
+    "pipeline test",
+    "tool test",
+    "full-stack file existence test"
+  ],
+  "model_provider": "deepseek",
+  "model_name": "deepseek-coder",
+  "fallback_reason": "AI generation failed: Client error '402 Payment Required' for url 'https://api.deepseek.com/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402"
+}
